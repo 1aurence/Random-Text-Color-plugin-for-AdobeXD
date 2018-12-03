@@ -1,0 +1,24 @@
+{
+    "id": "0000000000",
+    "name": "Random Text Color",
+    "version": "0.0.1",
+
+    "description": "Generate random color for text with one click!",
+    "icons": [
+        { "width": 96, "height": 96, "path": "images/blank.png" }
+    ],
+
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Random Text Color",
+            "commandId": "randomColor",
+            "shortcut": { "mac": "Cmd+Shift+P", "win": "Ctrl+Shift+P" }
+        }
+    ]
+}
